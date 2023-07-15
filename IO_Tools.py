@@ -99,3 +99,5 @@ df = pd.DataFrame(data)
 
 # Write DataFrame to JSON file at the specified location
 df.to_json('G:/Pandas/output.json', orient='records')
+
+# Read: usecols, set_index
